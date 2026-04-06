@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
-import api from '../../../services/api';
+import api from '../../services/api';
 import { FaEnvelope, FaLock, FaArrowRight, FaUserShield, FaUserGraduate } from 'react-icons/fa';
 import Swal from 'sweetalert2';
 

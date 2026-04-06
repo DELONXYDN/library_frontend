@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginForm from '../assets/components/organisms/LoginForm';
+import LoginForm from '../components/organisms/LoginForm';
 import { FaBookOpen } from 'react-icons/fa';
 
 const LoginPage = () => {

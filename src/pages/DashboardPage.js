@@ -128,11 +128,11 @@ const DashboardPage = () => {
 
     return (
         <div className="min-h-screen bg-[#F8FAFC] flex font-sans">
-            {/* --- SIDEBAR --- */}
-            <div className="w-72 bg-indigo-950 text-white hidden md:flex flex-col shadow-2xl z-30">
-                <div className="p-8 text-3xl font-black border-b border-indigo-900/50 text-center tracking-tighter uppercase">
-                    LIB<span className="text-indigo-500">RARY</span>
-                </div>
+    {/* --- SIDEBAR --- */}
+    <div className="w-72 bg-slate-900 text-white hidden md:flex flex-col shadow-2xl z-30">
+        <div className="p-8 text-3xl font-black border-b border-slate-700 text-center tracking-tighter uppercase">
+            PERPU<span className="text-blue-400">STAKAAN</span>
+        </div>
                 
                 <nav className="p-6 flex-1">
                     <ul className="space-y-3">
@@ -187,7 +187,7 @@ const DashboardPage = () => {
 
             {/* --- MAIN CONTENT --- */}
             <div className="flex-1 flex flex-col overflow-hidden">
-                <header className="bg-white/80 backdrop-blur-md shadow-sm p-6 px-10 flex justify-between items-center border-b z-20">
+                <header className="bg-yellow-500 backdrop-blur-md shadow-sm p-6 px-10 flex justify-between items-center border-b z-20">
                     <h2 className="text-2xl font-black text-gray-800 uppercase italic tracking-tighter">
                         {activeTab.replace('_', ' ')}
                     </h2>
@@ -195,7 +195,7 @@ const DashboardPage = () => {
                     <div className="flex items-center gap-4">
                         <div className="text-right hidden sm:block">
                             <p className="text-sm font-black text-gray-700 leading-none capitalize">{currentUser?.name || role}</p>
-                            <p className="text-[10px] text-green-500 font-bold uppercase tracking-widest mt-1 italic">Status: Online</p>
+                            <p className="text-[10px] text-blue-300 font-bold uppercase tracking-widest mt-1 italic">Status: Online</p>
                         </div>
                         {/* HEADER PROFILE AVATAR */}
                         <div 

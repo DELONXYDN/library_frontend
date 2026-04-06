@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaUser, FaEnvelope, FaCamera, FaIdCard, FaCheckCircle, FaUserShield } from 'react-icons/fa';
 import Swal from 'sweetalert2';
-import api from '../../services/api';
+import api from "../services/api"; 
 
 const Profile = ({ user, role, onUpdate }) => {
     const [name, setName] = useState(user?.name || '');

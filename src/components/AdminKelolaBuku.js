@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import api from '../../services/api';
+import api from "../services/api"; 
 import Swal from 'sweetalert2';
 import { FaPlus, FaSearch, FaEdit, FaTrash, FaImage, FaTimes, FaSave, FaTag } from 'react-icons/fa';
 
